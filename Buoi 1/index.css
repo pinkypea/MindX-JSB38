@@ -1,0 +1,10 @@
+div {
+    h1 {
+        color: red;
+    }
+    p {
+        text-decoration: underline;
+    }
+    text-align: center;
+    background-color: chartreuse;
+}
