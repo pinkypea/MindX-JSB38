@@ -28,11 +28,76 @@ html {
     text-decoration: none;
 }
 
+.w3-content{
+    padding: 30px;
+}
+
 .center {
     text-align: center;
+}
+
+.slides{
+    width: 100%;
 }
 
 .padding-32{
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.row_center{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.font-size-15{
+    font-size: 15;
+}
+
+.opacity{
+    opacity: 0.6;
+}
+
+p{
+    margin: 10px;
+}
+
+.w3-input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+.w3-black{
+    color: white;
+    background-color: black;
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+}
+
+.w3-button:hover, .w3-black:hover{
+    color: black;
+    background-color: gainsboro;
+}
+
+.w3-image {
+    max-width: 100%;
+    height: auto;
 }
